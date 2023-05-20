@@ -14,6 +14,6 @@ bit = platform.architecture()[0]
 
 if bit == '64bit':
 
-    from rana1 import Main()
+    from rana1 import Main
 
     Main().menu()
